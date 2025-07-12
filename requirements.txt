@@ -1,0 +1,32 @@
+# Core NLP + Embeddings
+sentence-transformers
+langchain>=0.2.0
+langchain-community
+langchain-openai
+langchain-pinecone
+langchain-google-genai
+langchain-experimental
+
+# Vector DB
+pinecone>=4.0.0  # ✅ New SDK; replaces deprecated pinecone-client
+
+# PDF Parsing
+pypdf
+
+# LLM / API Keys
+openai
+python-dotenv
+
+# Frontend
+streamlit
+
+# For RAG Evaluation (Optional)
+ragas
+
+# Utils
+tqdm
+pandas
+numpy
+
+# Optional: If using Flask for alternate API endpoint
+flask
